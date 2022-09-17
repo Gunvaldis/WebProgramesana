@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/style.css"/>
+    <title>Loterija</title>
+</head>
+<body>
+
+    <h1>Auto izloze!</h1>
+    <p>Aizpildiet nepiciešamo informāciju, lai piedalītos izlozē.</p>
+    <h2>{{ message }}</h2>
+    <form action='/forma' method="POST">
+      <fieldset>
+        <label for="first-name">Vārds: <input id="first-name" name="first-name" type="text" required /></label>
+        <label for="last-name">Uzvārds: <input id="last-name" name="last-name" type="text" required /></label>
+        <label for="email">E-pastas adrese: <input id="email" name="email" type="email" required /></label>
+      </fieldset>
+      <fieldset>
+        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" /> Esmu jau piedalījies loterijās.</label>
+        <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" /> Neessmu vēl piedalījies loterijās.</label>
+        <label for="terms-and-conditions" name="terms-and-conditions">
+          <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" /> Es piekrītu <a href="https://www.freecodecamp.org/news/terms-of-service/">lietošanas nosacījumiem un privātuma politikai</a>
+        </label>
+      </fieldset>
+      <input type="submit" value="Nosūtīt pieteikumu" />
+    </form>
+
+   
+
+
+    <a href="/">Sākums</a>
+    <a href="/BMW">BMW</a>
+    <a href="/Audi">Audi</a>
+    <a href="/Mercedes">Mercedes</a>
+    <a href="/Loterija">Piedalīties loterijā!</a>
+
+
+    <img src="/static/img/pic_left.png" alt="Loterija1.">
+    <img src="/static/img/mashinka.jpg" alt="Mašinka">
+    <img src="/static/img/maxresdefault.jpg" alt="Auto">
+
+
+
+
+
+
+</body>
+</html>
