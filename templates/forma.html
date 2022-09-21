@@ -8,10 +8,10 @@
     <title>Loterija</title>
 </head>
 <body>
-
-    <h1>Auto izloze!</h1>
-    <p>Aizpildiet nepiciešamo informāciju, lai piedalītos izlozē.</p>
+    <h1 class="new">Auto izloze!</h1>
+    <p class="new">Aizpildiet nepiciešamo informāciju, lai piedalītos izlozē.</p>
     <h2>{{ message }}</h2>
+    <a href="/">Atpakaļ uz sākumu</a>
     <form action='/forma' method="POST">
       <fieldset>
         <label for="first-name">Vārds: <input id="first-name" name="first-name" type="text" required /></label>
@@ -27,17 +27,15 @@
       </fieldset>
       <input type="submit" value="Nosūtīt pieteikumu" />
     </form>
-
+  
    
     
 
 
-    <img src="/static/img/pic_left.png" alt="Loterija.">
-    <img src="/static/img/mashinka.jpg" alt="Jauni auto no Vācijas">
-    <img src="/static/img/maxresdefault.jpg" alt="Auto">
+    <img class="atteli" src="/static/img/pic_left.png" alt="Loterija.">
+    <img class="atteli" src="/static/img/mashinka.png" alt="Jauni auto no Vācijas">
+    
 
-
-    <a href="/">Atpakaļ uz sākumu</a>
 
 
 

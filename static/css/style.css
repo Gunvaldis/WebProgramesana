@@ -29,6 +29,18 @@ body {
     background-color: aliceblue;
 }
 
+.new {
+  text-align: center;
+}
+
+.atteli {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: right;
+    padding-bottom: 2em;
+}
+
 
 form {
     width: 60vw;
@@ -83,6 +95,3 @@ form {
     min-width: 300px;
   }
   
- 
-Footer
-© 2022 GitHub, Inc. 

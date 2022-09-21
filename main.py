@@ -29,9 +29,9 @@ def forma():
         firstname = request.form.get('first-name')
         lastname = request.form.get('last-name')
         email = request.form.get('email')
-        password = request.form.get('new-password')
+        
 
-        dataline = f"{firstname},{lastname},{email},{password}\n"
+        dataline = f"{firstname},{lastname},{email}"
 
         with open("users.csv", "a", encoding="utf-8") as f:
             f.write(dataline)
